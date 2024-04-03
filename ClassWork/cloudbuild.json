@@ -23,7 +23,7 @@
         "--platform",
         "managed",
         "--region",
-        "us-central1"
+        "us-centrall"
       ]
     }
   ]
