@@ -10,7 +10,7 @@
     },
     {
       "name": "gcr.io/cloud-builders/docker",
-      "args": ["build", "-t", "gcr.io/$golden-veld-419205/your-image-name", "."]
+      "args": ["build", "-t", "gcr.io/golden-veld-419205/your-image-name", "."]
     },
     {
       "name": "gcr.io/cloud-builders/gcloud",
@@ -19,7 +19,7 @@
         "deploy",
         "your-service-name",
         "--image",
-        "gcr.io/$golden-veld-419205/your-image-name",
+        "gcr.io/golden-veld-419205/your-image-name",
         "--platform",
         "managed",
         "--region",
